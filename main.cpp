@@ -12,15 +12,16 @@ struct ListItem {
         _location = location;
         _item = item;
     }
-}
+};
 
 template <typename T>
+// template <typename T>
 class Sort {
     vector<ListItem<T>> sorter;
-    vector
+    vector<T> = {};
     public:
         Sort()
-}
+};
 
 int main() {
     cout << "hello world!" << endl;
